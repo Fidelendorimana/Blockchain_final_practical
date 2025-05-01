@@ -1,0 +1,27 @@
+{
+  "name": "blockchainexm",
+  "version": "1.0.0",
+  "description": "MedChain is a decentralized application (DApp) for managing medical records on the blockchain. It provides a secure and transparent way for patients and doctors to manage medical records.",
+  "main": "AddMedicalRecord.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.5.0",
+    "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@openzeppelin/contracts": "^5.3.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
