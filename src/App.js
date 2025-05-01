@@ -6,6 +6,7 @@ import DoctorDashboard from './components/DoctorDashboard';
 import PatientDashboard from './components/PatientDashboard';
 import PatientRegistration from './components/PatientRegistration';
 import { NotificationProvider } from './contexts/NotificationContext';
+import { Web3Provider } from './contexts/Web3Context';
 
 function App() {
     const [account, setAccount] = useState(null);
