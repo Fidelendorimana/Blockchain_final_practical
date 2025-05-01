@@ -1,27 +1,42 @@
 {
-  "name": "blockchainexm",
+  "name": "medchain",
   "version": "1.0.0",
-  "description": "MedChain is a decentralized application (DApp) for managing medical records on the blockchain. It provides a secure and transparent way for patients and doctors to manage medical records.",
-  "main": "AddMedicalRecord.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "dotenv": "^16.5.0",
-    "hardhat": "^2.23.0"
-  },
+  "private": true,
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@mui/icons-material": "^7.0.2",
-    "@mui/material": "^7.0.2",
-    "@openzeppelin/contracts": "^5.3.0"
+    "@openzeppelin/contracts": "^4.8.0",
+    "bootstrap": "^5.2.3",
+    "ethers": "^5.7.2",
+    "ipfs-http-client": "^60.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web3modal": "^1.9.12"
   },
-  "directories": {
-    "test": "test"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.4"
   }
 }
