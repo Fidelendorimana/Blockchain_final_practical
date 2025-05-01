@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MedChain - Blockchain Medical Records System
 
 MedChain is a decentralized application (DApp) for managing medical records on the blockchain. It provides a secure and transparent way for patients and doctors to manage medical records.
@@ -24,3 +25,6 @@ MedChain is a decentralized application (DApp) for managing medical records on t
 ```bash
 git clone <repository-url>
 cd MedChain
+=======
+# Blockchain_final_practical
+>>>>>>> 691d9a4baeb7125777a4138e1fcbb2e9dca5cbae
